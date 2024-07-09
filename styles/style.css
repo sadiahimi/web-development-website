@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto' ,sans-serif;
+}
+section{
+    min-height: 100vh;
+    background-image: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.article{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.article p{
+    font-size: 18px;
+    color: black;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.article .btn{
+    color: white;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: black;
+}
