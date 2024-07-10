@@ -200,3 +200,29 @@
     border-radius: 5px;
     padding: 8px 25px;
 }
+.new-banner {
+    min-height: 80vh;
+    background-image:url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.support{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.support p{
+    font-size: 18px;
+    color: white;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+input{
+   border: none;
+   padding: 15px;
+}
+button{
+    border: none;
+    padding: 15px;
+ }
