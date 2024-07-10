@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Roboto' ,sans-serif;
 }
-section{
+.banner{
     min-height: 100vh;
     background-image: url("../assets/Hero-bg.png");
     background-repeat: no-repeat;
@@ -30,4 +30,115 @@ section{
     text-transform: uppercase;
     text-decoration: none;
     background-color: black;
+}
+.web{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.web p{
+    font-size: 18px;
+    color: black;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.new{
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+.heading h1{
+    color:black;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 35px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 65px auto;
+}
+.new-content{
+    flex: 1;
+    width: 600px;
+    margin: 0px 25px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.new-content h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.new-content p{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: #333;
+}
+.new-content button{
+    display: inline-block;
+    background-color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 20px;
+    border-radius: ;
+    cursor: pointer;
+}
+.new-image{
+    flex: 1;
+    width: 600px;
+    margin: auto;
+    padding-left: 200px;
+}
+.new-container{
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;   
+}
+.about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.other-image{
+    flex: 1;
+    margin-right: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.other-content{
+    flex: 1;
+    margin-left: 20px;
+}
+.other-image img{
+    width: 70%;
+}
+.other-content p{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: #333;
+}
+.other-content h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #333;
+}       
+.new-content p{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: #333;
+}
+.other-content button{
+    display: inline-block;
+    background-color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 20px;
+    border-radius: ;
+    cursor: pointer;
 }
