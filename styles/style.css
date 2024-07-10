@@ -205,6 +205,9 @@
     background-image:url("../assets/handshake.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    width: 70%;
+    margin: auto;
+    text-align: center;
 }
 .support{
     width: 70%;
@@ -226,3 +229,14 @@ button{
     border: none;
     padding: 15px;
  }
+ .images{
+    display: inline;
+    padding-left: 900px;
+}
+.social{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.new-footer{
+    background-color: rgb(218, 216, 216);
+}
