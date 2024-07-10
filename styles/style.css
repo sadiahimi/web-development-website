@@ -47,12 +47,6 @@
     background-color: whitesmoke;
     overflow: hidden;
 }
-.heading h1{
-    color:black;
-    font-size: 45px;
-    text-align: center;
-    margin-top: 35px;
-}
 .container{
     display: flex;
     justify-content: center;
@@ -71,6 +65,7 @@
     font-size: 38px;
     margin-bottom: 20px;
     color: #333;
+    padding-top: 20px;
 }
 .new-content p{
     font-size: 24px;
@@ -141,4 +136,28 @@
     font-size: 20px;
     border-radius: ;
     cursor: pointer;
+}
+.heading{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.heading p{
+    font-size: 18px;
+    color: black;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.heading h1{
+    color:black;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 35px;
+}
+.video{
+    padding-top: 200px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
 }
